@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Inria Serif", serif;
+    font-size: 1.2em; /* 1rem = 1.2em*/
+}
+
+
+body {
+    background-color: rgb(162, 165, 162);
+}
+
+header {
+    background-color:rgb(110, 128, 128) ;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer {
+   background-color: rgb(110, 128, 128);
+    padding: 10px 50px;
+}
+
+.vvedenie {
+    background-color: rgb(162, 165, 162);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+
+}
+h1::first-letter {
+
+color: greenyellow;
+font-size: 80px;
+font-style: normal;
+}
+.iconkaSTYLE {
+    border: 5px double #3a2235;
+    border-radius: 25px;
+}
+h2::after {
+    content: " new";
+    font-size: 100px;
+    margin-left: 10px;
+    color: greenyellow;
+}
+.terma::after {
+    content: " new";
+    font-size: 100px;
+    margin-left: 10px;
+    color: greenyellow;
+}
+.h1Line {
+    
+    text-align: center;
+    font-size: 4.15rem;
+    color: rgba(14, 14, 14, 0.78);
+    text-transform: uppercase;
+
+    text-decoration: overline double greenyellow;
+    cursor: pointer;
+  
+    
+}
+p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+/*.avatar {
+    display: block;
+    margin: 0 auto;
+    border: 15px double #3a2235;
+    border-radius: 25px;
+}*/
+
+.inform li:nth-child(odd) {
+        background-color: #af4f8aa5;
+    }
+    .inform li:nth-child(even) {
+        background-color: rgba(172, 255, 47, 0.623);
+    }
+
+   
+
+.content {
+    padding: 20px 50px;
+}
+.p1 {
+    color: rgb(252, 7, 190);
+    text-shadow:0 0 5px #3a2235 ;
+}
+
+.bio {
+    display: block;
+    margin-left: 150px;
+    border: 15px double rgba(172, 255, 47, 0.604);
+    border-radius: 25px;
+     
+}
+.term {
+    display: block;
+    margin: 0 auto ;   
+}
+
+
+a:link {
+    color: #632255;
+
+}
+a:visited {
+    color: rgb(6, 7, 7);
+}
+a:focus {
+    color: blue;
+}
+a:hover {
+    color: greenyellow;
+}
+
+a:active {
+    color: rgb(235, 186, 62);
+}
+.page-list li:nth-child(odd) {
+    background-color: #473b44;
+}
+.listBIO li {
+    color: greenyellow;
+}
+.listTERM dt{
+    color: rgb(157, 243, 28);
+}
+.listDOSTFACT li:nth-of-type(odd) {
+    color: greenyellow;
+}
+.sp:after {
+    content: "Важно!";
+    font-size: 20px;
+    margin-left: 25px;
+    color: rgb(25, 109, 22);
+    background-color: aliceblue;
+    text-shadow: 0 0 10px black;
+}
+.whoisBIO {
+    letter-spacing: 0.8em;
+}
+.kompTERM {
+    letter-spacing: 0.5em;
+}
+.figuraFACT {
+    letter-spacing: 0.4em;
+}
+.dostDOST {
+    letter-spacing: 0.3em;
+}
+.rivIND {
+    letter-spacing: 0.2em;
+    margin-top: 100px;
+}
+p:lang(fr) {
+    color: rgba(172, 255, 47, 0.516);
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgb(194, 32, 153);
+    
+
+}
+p:lang(en) {
+    color: rgba(245, 2, 131, 0.882);
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+footer .ramka {
+    border: 5px solid rgba(172, 255, 47, 0.495);
+    border-radius: 50%;
+}
+.otstup {
+    margin-top: 50px;
+}
+.hDESIGN {
+     
+        font-family: "Yanone Kaffeesatz", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+/*.podpis {
+    margin-top: 20px;
+    text-align: center;
+    color: #3a2235;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style:italic;
+}*/
+img+figcaption {
+    
+    text-align: center;
+    margin-top: 2cm;
+    color: red;
+    
+}
+
+.selector1+.selector2 {
+    color: #632255;
+}
+/*
+
+1em - размер шрифта в браузере по умолчанию
+средний - 16px
+
+1em = 16px
+
+1rem - размер шрифта, который задан в теге html
+*/
